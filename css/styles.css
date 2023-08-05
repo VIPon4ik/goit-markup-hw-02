@@ -17,8 +17,9 @@ a:hover {
     text-decoration: underline;
 }
 
-a:focus {
-    color:currentColor;
+a:focus,
+a:active {
+    color:rgba(64, 75, 191, 1);
 }
 
 ul, ol {
@@ -53,6 +54,10 @@ h3 {
     letter-spacing: 0.4px;
 }
 
+address {
+    font-style: normal;
+}
+
 button {
     background-color: rgba(77, 90, 229, 1);
     cursor: pointer;
@@ -75,11 +80,11 @@ footer {
 
 .logo-text {
     color: var(--iris, #4D5AE5);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -89,7 +94,8 @@ footer {
 }
 
 .navigation-link {
-    color: rgba(46, 47, 66, 1);
+    color: #2e2f42;
+    font-weight: 500;
 }
 
 /* Main */
