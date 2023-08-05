@@ -71,13 +71,7 @@ button:focus {
     background-color: rgba(64, 75, 191, 1);
 }
 
-section {
-    background-color: #FFF;
-}
 
-footer {
-    background-color: rgba(46, 47, 66, 1);
-}
 
 /* Header */
 /* Navigation bar */
@@ -117,6 +111,9 @@ footer {
 
 /* Footer section */
 
+.footer-section {
+    background-color: rgba(46, 47, 66, 1);
+}
 .footer-text {
     color:rgba(244, 244, 253, 1);
 }
