@@ -109,6 +109,10 @@ button:focus {
     background-color: rgba(244, 244, 253, 1);
 }
 
+.third-section-list {
+    background-color:#FFF ;
+}
+
 /* Footer section */
 
 .footer-section {
